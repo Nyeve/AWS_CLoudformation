@@ -130,7 +130,7 @@ Resources:
           Ref: WebAppTargetGroup
       LoadBalancerArn:
         Ref: WebAppLB
-      Port: '80'
+      Port: 80
       Protocol: HTTP
   ALBListenerRule:
       Type: AWS::ElasticLoadBalancingV2::ListenerRule
